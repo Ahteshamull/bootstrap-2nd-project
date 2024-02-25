@@ -563,7 +563,6 @@ nav .nav-link__all {
 }
 /* ========================talk=================== */
 #talk {
-  margin-bottom: 200px;
   background: #ffd7c8;
   padding: 100px 0;
 }
@@ -611,7 +610,8 @@ nav .nav-link__all {
 .border {
   width: 100%;
   height: 1px;
-  color: #29313d !important;
+  color: #black;
+  margin-top: 48px;
 }
 .talk_p {
   font-size: 20px;
@@ -622,4 +622,66 @@ nav .nav-link__all {
   max-width: 1278px;
   text-transform: capitalize;
   margin-top: 24px;
+}
+/* ================footer__part============ */
+#footer__part {
+  padding: 140px 0;
+  background: rgba(255, 255, 255, 0.012);
+}
+.footer__leftp {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #29313d;
+  text-transform: capitalize;
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 449px;
+  margin-top: 44px;
+}
+.footer__righth2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  color: #29313d;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.footer__righta {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #29313d;
+  font-family: "Nunito Sans", sans-serif;
+}
+.footer_last {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 189px;
+}
+.footer__lasthh {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.footer_lasth2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #29313d;
+  font-family: "Nunito Sans", sans-serif;
+}
+.privacyh2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #29313d;
+  font-family: "Nunito Sans", sans-serif;
+}
+.policyh2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #29313d;
+  font-family: "Nunito Sans", sans-serif;
 }
